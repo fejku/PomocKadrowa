@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="dist/js/bundle.js"></script>
+</head>
+<body>
+  <label for="input_brutto">Wynagrodzenie brutto</label>
+  <input id="input_brutto" type="number" min="0" value="4500">
+  <label for="input_ilosc_nadgodzin">Ilość nadgodzin</label>
+  <input id="input_ilosc_nadgodzin" type="number" min="0" value="0">
+  <label for="select_rok">Rok</label>
+  <select name="" id="select_rok">
+    <option value="2018" selected="selected">2018</option>
+    <option value="2019">2019</option>
+  </select>
+  <label for="select_miesiac"></label>
+  <select name="" id="select_miesiac">
+      <option value="Styczeń">Styczeń</option>
+      <option value="Luty">Luty</option>
+      <option value="Marzec">Marzec</option>
+      <option value="Kwiecieć">Kwiecieć</option>
+      <option value="Maj" selected="selected">Maj</option>
+      <option value="Czerwiec">Czerwiec</option>
+      <option value="Lipiec">Lipiec</option>
+      <option value="Sierpień">Sierpień</option>
+      <option value="Wrzesień">Wrzesień</option>
+      <option value="Październik">Październik</option>
+      <option value="Listopad">Listopad</option>
+      <option value="Grudzień">Grudzień</option>
+    </select>
+  <button id="button_oblicz">Oblicz</button>
+  <div>Ubezpieczenie emerytalne: <span id="span_ubezpieczenie_emerytalne"></span></div>
+  <div>Ubezpieczenie rentalne: <span id="span_ubezpieczenie_rentalne"></span></div>
+  <div>Ubezpieczenie chorobowe: <span id="span_ubezpieczenie_chorobowe"></span></div>
+  <div>Ubezpieczenie zdrowotne: <span id="span_ubezpieczenie_zdrowotne"></span></div>
+  <div>Zaliczka na PIT: <span id="span_zaliczkaPIT"></span></div>
+  <div>Wynagrodzenie netto: <span id="span_netto"></span></div>
+  <div>Dni robocze: <span id="span_dni_robocze"></span></div>
+  <div>Stawka netto za godzinę: <span id="span_stawka_netto_za_godzine"></span></div>
+  <div>Kwota za nadgodziny netto: <span id="span_suma_netto"></span></div>
+</body>
+</html>
