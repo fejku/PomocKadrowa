@@ -1,4 +1,4 @@
-import {dniRoboczeWRoku} from './modules/dni_robocze_w_roku';
+import {dniRoboczeWRoku} from './dni_robocze_w_roku';
 
 const stopaProcentowaUbezpieczenieEmerytalne = 9.76 / 100;
 const stopaProcentowaUbezpieczenieRentowe = 1.5 / 100;
